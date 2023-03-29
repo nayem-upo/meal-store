@@ -1,0 +1,16 @@
+.header-main{
+    background-color: black;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    color: antiquewhite;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.header img{
+    width: 65px;
+    margin-left: 20px;
+}

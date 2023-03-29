@@ -1,0 +1,33 @@
+.cart{
+    padding: 20px;
+    height: 360px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+}
+
+.buttons button{
+    width: 100;
+    color: blueviolet;
+    background-color: aqua;
+    border: 0px;
+}
+
+.buttons button:hover{
+    background-color: rgb(255, 127, 227);
+}
+
+.btn-add{
+    border-radius: 0px;
+}
+
+.btn-remove{
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.cart-boday{
+    border: 1px solid black;
+    border-radius: 10px;
+}
